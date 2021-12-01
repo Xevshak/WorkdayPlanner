@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Day Scheduler</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+
+<body>
+    <header class="jumbotron description">
+        <h1 class="display-3">Work Day Planner</h1>
+        <p class="lead">This helps you plan out your workday!</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+        <div class="row time-block">
+            <p class="col-1 hour">9:00</p>
+            <textarea class="col-10" id="nine" time="9"></textarea>
+            <button type="button" class="btn col-1 saveBtn" id = "scheduleNine"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">10:00</p>
+            <textarea class="col-10" id="ten" time="10"></textarea>
+            <button type="button" class="btn col-1 saveBtn" id = "scheduleTen"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">11:00</p>
+            <textarea class="col-10" id="eleven" time="11"></textarea>
+            <button type="button" class="btn col-1 saveBtn" id = "scheduleEleven"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">12:00</p>
+            <textarea class="col-10" id="twelve" time="12"></textarea>
+            <button type="button" class="btn col-1 saveBtn" id = "scheduleTwelve"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">13:00</p>
+            <textarea class="col-10" id="one" time="13"></textarea>
+            <button type="button" class="btn btn-lg col-1 saveBtn" id = "scheduleOne"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">14:00</p>
+            <textarea class="col-10" id="two" time="14"></textarea>
+            <button type="button" class="btn btn-lg col-1 saveBtn" id = "scheduleTwo"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">15:00</p>
+            <textarea class="col-10" id="three" time="15"></textarea>
+            <button type="button" class="btn btn-lg col-1 saveBtn" id = "scheduleThree"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">16:00</p>
+            <textarea class="col-10" id="four" time="16"></textarea>
+            <button type="button" class="btn btn-lg col-1 saveBtn" id = "scheduleFour"><i class="bi bi-save"></i></button>
+        </div>
+        <div class="row time-block">
+            <p class="col-1 hour">17:00</p>
+            <textarea class="col-10" id="five" time="17"></textarea>
+            <button type="button" class="btn btn-lg col-1 saveBtn" id = "scheduleFive"><i class="bi bi-save"></i></button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
